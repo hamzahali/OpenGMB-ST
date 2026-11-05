@@ -71,7 +71,7 @@ export function shellBrand(b: Branding | null): ShellBrand {
   const name = branded && b ? b.agencyName.trim() || "OpenGMB" : "OpenGMB";
   return {
     name,
-    subline: branded ? "Powered by OpenGMB" : "by Synectus",
+    subline: branded ? "Powered by StandardTouch" : "by StandardTouch",
     mark: name.trim().charAt(0).toUpperCase() || "O",
     logoUrl: branded && b?.logoUrl ? b.logoUrl : null,
   };

@@ -85,16 +85,16 @@ describe("brandTokens sweep", () => {
 });
 
 describe("shellBrand", () => {
-  it("shows OpenGMB by Synectus when the agency set no logo or colour", () => {
+  it("shows OpenGMB by StandardTouch when the agency set no logo or colour", () => {
     expect(
       shellBrand({ agencyName: "Synectus", logoUrl: null, primaryColor: null, accentColor: null }),
-    ).toEqual({ name: "OpenGMB", subline: "by Synectus", mark: "O", logoUrl: null });
+    ).toEqual({ name: "OpenGMB", subline: "by StandardTouch", mark: "O", logoUrl: null });
   });
 
   it("shows the agency once it set a colour", () => {
     expect(
       shellBrand({ agencyName: "Example Agency", logoUrl: null, primaryColor: "#1d4ed8", accentColor: null }),
-    ).toEqual({ name: "Example Agency", subline: "Powered by OpenGMB", mark: "E", logoUrl: null });
+    ).toEqual({ name: "Example Agency", subline: "Powered by StandardTouch", mark: "E", logoUrl: null });
   });
 
   it("keeps OpenGMB when the agency only renamed itself", () => {

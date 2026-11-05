@@ -14,7 +14,7 @@ export type HostBrand = { branding: Branding; brand: ShellBrand; css: string | n
  */
 export function hostShellBrand(b: Branding): ShellBrand {
   const name = b.agencyName.trim() || "OpenGMB";
-  return { name, subline: "Powered by OpenGMB", mark: name.charAt(0).toUpperCase() || "O", logoUrl: b.logoUrl };
+  return { name, subline: "Powered by StandardTouch", mark: name.charAt(0).toUpperCase() || "O", logoUrl: b.logoUrl };
 }
 
 /** Brand for a request host, or null on the main host and unknown hosts. */

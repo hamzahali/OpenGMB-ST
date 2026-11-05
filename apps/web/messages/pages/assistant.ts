@@ -2,8 +2,8 @@ import { namespace } from "./define";
 
 export default namespace({
   en: {
-    open: "Ask OpenGMB",
-    title: "Ask OpenGMB",
+    open: "Ask AI Assistant",
+    title: "Ask AI Assistant",
     close: "Close",
     intro: "Ask about {client}: reviews, posts, how locations are doing. When you ask for a change, I queue it as a proposal. Nothing is published until you confirm it.",
     pickClient: "Pick one client in the scope switcher at the top to ask about it.",
