@@ -43,7 +43,7 @@ export default namespace({
     },
     accept: {
       access: "You now have access to {place}.",
-      open: "Open OpenGMB",
+      open: "Open StandardTouchGMB",
       accepting: "Accepting…",
       accept: "Accept invitation",
     },
@@ -84,8 +84,8 @@ export default namespace({
     },
     verify: {
       title: "Two-factor verification",
-      description: "Open your authenticator app and enter the code for OpenGMB.",
-      descriptionLegacy: "Open your authenticator app and enter the code for OpenGMB (older setups may show SynGMB).",
+      description: "Open your authenticator app and enter the code for StandardTouchGMB.",
+      descriptionLegacy: "Open your authenticator app and enter the code for StandardTouchGMB (older setups may show SynGMB).",
       lowCodes:
         "You have {left, plural, one {# backup code} other {# backup codes}} left. Make new ones in your account.",
       account: "Account",
@@ -141,7 +141,7 @@ export default namespace({
     },
     accept: {
       access: "अब आपके पास {place} की पहुँच है।",
-      open: "OpenGMB खोलें",
+      open: "StandardTouchGMB खोलें",
       accepting: "स्वीकार हो रहा है…",
       accept: "आमंत्रण स्वीकार करें",
     },
@@ -182,8 +182,8 @@ export default namespace({
     },
     verify: {
       title: "दो-चरणीय सत्यापन",
-      description: "अपना ऑथेंटिकेटर ऐप खोलें और OpenGMB का कोड डालें।",
-      descriptionLegacy: "अपना ऑथेंटिकेटर ऐप खोलें और OpenGMB का कोड डालें (पुराने सेटअप में SynGMB दिख सकता है)।",
+      description: "अपना ऑथेंटिकेटर ऐप खोलें और StandardTouchGMB का कोड डालें।",
+      descriptionLegacy: "अपना ऑथेंटिकेटर ऐप खोलें और StandardTouchGMB का कोड डालें (पुराने सेटअप में SynGMB दिख सकता है)।",
       lowCodes:
         "आपके पास {left, plural, one {# बैकअप कोड} other {# बैकअप कोड}} बचे हैं। अपने खाते में नए बनाएँ।",
       account: "खाता",
@@ -239,7 +239,7 @@ export default namespace({
     },
     accept: {
       access: "Ya tienes acceso a {place}.",
-      open: "Abrir OpenGMB",
+      open: "Abrir StandardTouchGMB",
       accepting: "Aceptando…",
       accept: "Aceptar invitación",
     },
@@ -280,8 +280,8 @@ export default namespace({
     },
     verify: {
       title: "Verificación en dos pasos",
-      description: "Abre tu app de autenticación e introduce el código de OpenGMB.",
-      descriptionLegacy: "Abre tu app de autenticación e introduce el código de OpenGMB (las configuraciones antiguas pueden mostrar SynGMB).",
+      description: "Abre tu app de autenticación e introduce el código de StandardTouchGMB.",
+      descriptionLegacy: "Abre tu app de autenticación e introduce el código de StandardTouchGMB (las configuraciones antiguas pueden mostrar SynGMB).",
       lowCodes:
         "Te quedan {left, plural, one {# código de respaldo} other {# códigos de respaldo}}. Crea otros nuevos en tu cuenta.",
       account: "Cuenta",

@@ -13,7 +13,7 @@ export type HostBrand = { branding: Branding; brand: ShellBrand; css: string | n
  * colour is set), the agency's name always shows here: the address itself says whose it is.
  */
 export function hostShellBrand(b: Branding): ShellBrand {
-  const name = b.agencyName.trim() || "OpenGMB";
+  const name = b.agencyName.trim() || "StandardTouchGMB";
   return { name, subline: "Powered by StandardTouch", mark: name.charAt(0).toUpperCase() || "O", logoUrl: b.logoUrl };
 }
 

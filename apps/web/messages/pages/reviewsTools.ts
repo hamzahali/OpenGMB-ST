@@ -47,7 +47,7 @@ export default namespace({
       open: "Open",
       aiTitle: "Ask your own AI agent about these reviews",
       aiBody:
-        "OpenGMB can sort reviews into topics with its built-in AI. Your own agent can also read these reviews through MCP and answer questions like: \"{question}\"",
+        "StandardTouchGMB can sort reviews into topics with its built-in AI. Your own agent can also read these reviews through MCP and answer questions like: \"{question}\"",
       aiQuestion: "What do people complain about most at {name} this quarter?",
       copyQuestion: "Copy this question",
       connectAgent: "Connect an agent",
@@ -249,7 +249,7 @@ export default namespace({
       noteBody:
         "Google does not allow asking only happy customers or offering anything for a review. In healthcare, never put a patient's name, visit or treatment in the message. Text only people who agreed to receive texts.",
       readsOnly:
-        "Review links, QR codes and the widget only read from OpenGMB. They do not write to Google, so the writes-off setting does not affect them.",
+        "Review links, QR codes and the widget only read from StandardTouchGMB. They do not write to Google, so the writes-off setting does not affect them.",
       createTitle: "Create the tracked link",
       createDesc: "One link per location. It counts opens and then sends the person to Google's review form.",
       linkPanel: "Review link",
@@ -306,7 +306,7 @@ export default namespace({
       preview: "Preview: {text}",
       copyMessage: "Copy message",
       copied: "Copied",
-      sendFrom: "Send from OpenGMB",
+      sendFrom: "Send from StandardTouchGMB",
       notLive: "Not live",
       needsProvider: "Needs a text and email provider, not set up",
     },
@@ -356,7 +356,7 @@ export default namespace({
       open: "खोलें",
       aiTitle: "इन समीक्षाओं के बारे में अपने एआई एजेंट से पूछें",
       aiBody:
-        "OpenGMB अपने बिल्ट-इन एआई से समीक्षाओं को विषयों में बाँट सकता है। आपका अपना एजेंट भी MCP के ज़रिए ये समीक्षाएँ पढ़कर ऐसे सवालों के जवाब दे सकता है: \"{question}\"",
+        "StandardTouchGMB अपने बिल्ट-इन एआई से समीक्षाओं को विषयों में बाँट सकता है। आपका अपना एजेंट भी MCP के ज़रिए ये समीक्षाएँ पढ़कर ऐसे सवालों के जवाब दे सकता है: \"{question}\"",
       aiQuestion: "इस तिमाही में {name} पर लोग सबसे ज़्यादा किस बात की शिकायत करते हैं?",
       copyQuestion: "यह सवाल कॉपी करें",
       connectAgent: "एजेंट जोड़ें",
@@ -558,7 +558,7 @@ export default namespace({
       noteBody:
         "Google केवल खुश ग्राहकों से माँगने या समीक्षा के बदले कुछ भी देने की अनुमति नहीं देता। हेल्थकेयर में संदेश में मरीज़ का नाम, विज़िट या इलाज कभी न लिखें। केवल उन्हीं को टेक्स्ट भेजें जिन्होंने टेक्स्ट पाने की सहमति दी है।",
       readsOnly:
-        "समीक्षा लिंक, QR कोड और विजेट केवल OpenGMB से पढ़ते हैं। ये Google में कुछ नहीं लिखते, इसलिए राइट-बंद सेटिंग का इन पर असर नहीं पड़ता।",
+        "समीक्षा लिंक, QR कोड और विजेट केवल StandardTouchGMB से पढ़ते हैं। ये Google में कुछ नहीं लिखते, इसलिए राइट-बंद सेटिंग का इन पर असर नहीं पड़ता।",
       createTitle: "ट्रैक किया गया लिंक बनाएँ",
       createDesc: "हर स्थान के लिए एक लिंक। यह खुलने की गिनती करता है और फिर व्यक्ति को Google के समीक्षा फ़ॉर्म पर भेजता है।",
       linkPanel: "समीक्षा लिंक",
@@ -615,7 +615,7 @@ export default namespace({
       preview: "पूर्वावलोकन: {text}",
       copyMessage: "संदेश कॉपी करें",
       copied: "कॉपी हो गया",
-      sendFrom: "OpenGMB से भेजें",
+      sendFrom: "StandardTouchGMB से भेजें",
       notLive: "अभी चालू नहीं",
       needsProvider: "टेक्स्ट और ईमेल प्रदाता चाहिए, सेट नहीं है",
     },
@@ -665,7 +665,7 @@ export default namespace({
       open: "Abrir",
       aiTitle: "Pregunta a tu propio agente de IA sobre estas reseñas",
       aiBody:
-        "OpenGMB puede ordenar las reseñas por temas con su IA integrada. Tu propio agente también puede leer estas reseñas mediante MCP y responder preguntas como: \"{question}\"",
+        "StandardTouchGMB puede ordenar las reseñas por temas con su IA integrada. Tu propio agente también puede leer estas reseñas mediante MCP y responder preguntas como: \"{question}\"",
       aiQuestion: "¿De qué se quejan más las personas en {name} este trimestre?",
       copyQuestion: "Copiar esta pregunta",
       connectAgent: "Conectar un agente",
@@ -868,7 +868,7 @@ export default namespace({
       noteBody:
         "Google no permite pedir reseñas solo a los clientes contentos ni ofrecer nada a cambio de una reseña. En salud, nunca pongas el nombre, la visita ni el tratamiento de un paciente en el mensaje. Envía mensajes de texto solo a quienes aceptaron recibirlos.",
       readsOnly:
-        "Los enlaces de reseña, los códigos QR y el widget solo leen de OpenGMB. No escriben en Google, así que el ajuste de escritura desactivada no los afecta.",
+        "Los enlaces de reseña, los códigos QR y el widget solo leen de StandardTouchGMB. No escriben en Google, así que el ajuste de escritura desactivada no los afecta.",
       createTitle: "Crear el enlace con seguimiento",
       createDesc: "Un enlace por ubicación. Cuenta las aperturas y luego lleva a la persona al formulario de reseñas de Google.",
       linkPanel: "Enlace de reseña",
@@ -927,7 +927,7 @@ export default namespace({
       preview: "Vista previa: {text}",
       copyMessage: "Copiar mensaje",
       copied: "Copiado",
-      sendFrom: "Enviar desde OpenGMB",
+      sendFrom: "Enviar desde StandardTouchGMB",
       notLive: "No disponible",
       needsProvider: "Necesita un proveedor de texto y correo, no configurado",
     },

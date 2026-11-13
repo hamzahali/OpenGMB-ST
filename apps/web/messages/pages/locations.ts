@@ -111,7 +111,7 @@ export default namespace({
     healthEmptyBody: "Import locations and link them to Google to see health scores.",
     // alerts page
     alertsIntro:
-      "Profile changes made outside OpenGMB across every location in scope. Found by the nightly snapshot at 03:30 UTC, or suggested by Google.",
+      "Profile changes made outside StandardTouchGMB across every location in scope. Found by the nightly snapshot at 03:30 UTC, or suggested by Google.",
     pill_open: "Open ({count})",
     pill_accepted: "Accepted",
     pill_reverted: "Reverted",
@@ -397,7 +397,7 @@ export default namespace({
     healthEmptyTitle: "अभी जाँचने को कुछ नहीं",
     healthEmptyBody: "स्वास्थ्य स्कोर देखने के लिए स्थान इंपोर्ट करें और उन्हें Google से लिंक करें।",
     alertsIntro:
-      "OpenGMB के बाहर प्रोफ़ाइल में हुए बदलाव, दायरे के हर स्थान के लिए। ये रात के स्नैपशॉट (03:30 UTC) से मिले या Google ने सुझाए।",
+      "StandardTouchGMB के बाहर प्रोफ़ाइल में हुए बदलाव, दायरे के हर स्थान के लिए। ये रात के स्नैपशॉट (03:30 UTC) से मिले या Google ने सुझाए।",
     pill_open: "खुले ({count})",
     pill_accepted: "स्वीकार किए",
     pill_reverted: "वापस किए",
@@ -677,7 +677,7 @@ export default namespace({
     healthEmptyTitle: "Aún no hay nada que comprobar",
     healthEmptyBody: "Importa ubicaciones y vincúlalas a Google para ver las puntuaciones de salud.",
     alertsIntro:
-      "Cambios de perfil hechos fuera de OpenGMB en cada ubicación del alcance. Detectados por la instantánea nocturna de las 03:30 UTC, o sugeridos por Google.",
+      "Cambios de perfil hechos fuera de StandardTouchGMB en cada ubicación del alcance. Detectados por la instantánea nocturna de las 03:30 UTC, o sugeridos por Google.",
     pill_open: "Abiertos ({count})",
     pill_accepted: "Aceptados",
     pill_reverted: "Revertidos",

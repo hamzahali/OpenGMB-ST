@@ -33,7 +33,7 @@ export const PREFERENCE_ROWS: { kind: string; label: string; inApp: boolean; ema
   { kind: "review.assigned", label: "Review assigned to you", inApp: true, email: false, digest: true },
   { kind: "google.updated_review", label: "Updated review", inApp: true, email: false, digest: true },
   { kind: "approval.requested", label: "Approval requested (client approvers)", inApp: true, email: true, digest: true },
-  { kind: "profile.changed", label: "Profile changed outside OpenGMB", inApp: true, email: false, digest: true },
+  { kind: "profile.changed", label: "Profile changed outside StandardTouchGMB", inApp: true, email: false, digest: true },
   { kind: "google.google_update", label: "Google suggested edit", inApp: true, email: false, digest: true },
   { kind: "media.customer_photo", label: "Customer photo", inApp: true, email: false, digest: true },
   { kind: "geogrid.budget_exceeded", label: "Rank tracking budget reached", inApp: true, email: false, digest: true },

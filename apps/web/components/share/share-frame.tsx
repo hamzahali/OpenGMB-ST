@@ -17,7 +17,7 @@ export function ShareFrame({
   children: ReactNode;
   footer?: ReactNode;
 }) {
-  const name = brand?.agencyName ?? "OpenGMB";
+  const name = brand?.agencyName ?? "StandardTouchGMB";
   const css = brand?.colour
     ? brandCss({ primaryColor: brand.colour, accentColor: brand.colour })
     : null;

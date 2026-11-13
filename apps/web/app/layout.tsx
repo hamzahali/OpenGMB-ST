@@ -26,7 +26,7 @@ const devanagari = Noto_Sans_Devanagari({
 });
 
 export const metadata = {
-  title: "OpenGMB",
+  title: "StandardTouchGMB",
   icons: {
     icon: [
       { url: "/icons/icon.svg", type: "image/svg+xml" },
@@ -35,7 +35,7 @@ export const metadata = {
     ],
     apple: "/icons/apple-touch-icon.png",
   },
-  appleWebApp: { capable: true, title: "OpenGMB" },
+  appleWebApp: { capable: true, title: "StandardTouchGMB" },
 };
 export const viewport = { themeColor: "#c2410c" };
 

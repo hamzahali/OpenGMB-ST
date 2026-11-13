@@ -152,7 +152,7 @@ export default namespace({
       },
       pickOne: "Pick at least one column.",
       warning:
-        "Reviews are public on Google, but this file leaves OpenGMB. In a healthcare client, keep it where patient-related files go. The export is recorded in the audit log.",
+        "Reviews are public on Google, but this file leaves StandardTouchGMB. In a healthcare client, keep it where patient-related files go. The export is recorded in the audit log.",
       limit: "At most {max} reviews per file; narrow the filters to go further.",
       cancel: "Cancel",
       download: "Download CSV",
@@ -360,7 +360,7 @@ export default namespace({
       },
       pickOne: "कम से कम एक कॉलम चुनें।",
       warning:
-        "समीक्षाएँ Google पर सार्वजनिक हैं, पर यह फ़ाइल OpenGMB से बाहर जाती है। हेल्थकेयर ग्राहक के लिए इसे वहीं रखें जहाँ मरीज़ से जुड़ी फ़ाइलें रखी जाती हैं। एक्सपोर्ट ऑडिट लॉग में दर्ज होता है।",
+        "समीक्षाएँ Google पर सार्वजनिक हैं, पर यह फ़ाइल StandardTouchGMB से बाहर जाती है। हेल्थकेयर ग्राहक के लिए इसे वहीं रखें जहाँ मरीज़ से जुड़ी फ़ाइलें रखी जाती हैं। एक्सपोर्ट ऑडिट लॉग में दर्ज होता है।",
       limit: "हर फ़ाइल में अधिकतम {max} समीक्षाएँ; आगे जाने के लिए फ़िल्टर घटाएँ।",
       cancel: "रद्द करें",
       download: "CSV डाउनलोड करें",
@@ -569,7 +569,7 @@ export default namespace({
       },
       pickOne: "Elige al menos una columna.",
       warning:
-        "Las reseñas son públicas en Google, pero este archivo sale de OpenGMB. Si el cliente es del sector salud, guárdalo donde se guardan los archivos de pacientes. La exportación queda registrada en el registro de auditoría.",
+        "Las reseñas son públicas en Google, pero este archivo sale de StandardTouchGMB. Si el cliente es del sector salud, guárdalo donde se guardan los archivos de pacientes. La exportación queda registrada en el registro de auditoría.",
       limit: "Máximo {max} reseñas por archivo; acota los filtros para ir más allá.",
       cancel: "Cancelar",
       download: "Descargar CSV",

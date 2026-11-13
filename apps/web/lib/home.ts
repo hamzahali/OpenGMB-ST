@@ -120,7 +120,7 @@ export function tiles(c: Counts, o: { writesOff: boolean }, t: T): Tile[] {
 
 export function itemTitle(i: AttentionItem): string {
   if (i.kind !== "change") return i.title;
-  return `${changeSummary(i.fields)} ${i.googleSuggested ? "by Google" : "outside OpenGMB"}`;
+  return `${changeSummary(i.fields)} ${i.googleSuggested ? "by Google" : "outside StandardTouchGMB"}`;
 }
 
 export function itemWhere(i: AttentionItem, t: T): string {

@@ -96,7 +96,7 @@ export default namespace({
     health: {
       scoreAria: "Health score",
       checked: "Checked {when}",
-      intro: "Each run reads the profile, photos, posts, verification, links and attributes from Google, and reviews from OpenGMB's synced copy.",
+      intro: "Each run reads the profile, photos, posts, verification, links and attributes from Google, and reviews from StandardTouchGMB's synced copy.",
       unknownLeftOut: "Unknown checks are left out of the score.",
       checking: "Checking…",
       reading: "Reading {name} from Google.",
@@ -141,7 +141,7 @@ export default namespace({
     changes: {
       title: "Profile changes",
       titleWithName: "Profile changes: {name}",
-      intro: "Edits made outside OpenGMB, found by the nightly snapshot at 03:30 UTC, or suggested by Google.",
+      intro: "Edits made outside StandardTouchGMB, found by the nightly snapshot at 03:30 UTC, or suggested by Google.",
       filterAria: "Filter by status",
       pill: {
         open: "Open ({count})",
@@ -198,7 +198,7 @@ export default namespace({
         manual: "manual snapshot",
       },
       googleHeadline: "Before is your profile, after is what Google shows.",
-      outsideHeadline: "Someone changed the profile outside OpenGMB.",
+      outsideHeadline: "Someone changed the profile outside StandardTouchGMB.",
       revertProposed: "Revert proposed. It needs approval, then Apply, in the approval queue.",
       accept: "Accept",
       revert: "Revert",
@@ -239,7 +239,7 @@ export default namespace({
     susp: {
       title: "Suspension cases",
       titleWithName: "Suspension cases: {name}",
-      intro: "OpenGMB keeps a record of the evidence and dates. The appeal itself happens on Google, and you get one appeal per suspension.",
+      intro: "StandardTouchGMB keeps a record of the evidence and dates. The appeal itself happens on Google, and you get one appeal per suspension.",
       form: "Google's reinstatement form",
       finishedAria: "Finished case, {status}",
       openAria: "Open case",
@@ -618,7 +618,7 @@ export default namespace({
     health: {
       scoreAria: "हेल्थ स्कोर",
       checked: "जाँच: {when}",
-      intro: "हर जाँच में प्रोफ़ाइल, फ़ोटो, पोस्ट, सत्यापन, लिंक और विशेषताएँ Google से पढ़ी जाती हैं, और समीक्षाएँ OpenGMB की सिंक की गई कॉपी से।",
+      intro: "हर जाँच में प्रोफ़ाइल, फ़ोटो, पोस्ट, सत्यापन, लिंक और विशेषताएँ Google से पढ़ी जाती हैं, और समीक्षाएँ StandardTouchGMB की सिंक की गई कॉपी से।",
       unknownLeftOut: "अज्ञात जाँचें स्कोर में नहीं गिनी जातीं।",
       checking: "जाँच हो रही है…",
       reading: "Google से {name} पढ़ा जा रहा है।",
@@ -663,7 +663,7 @@ export default namespace({
     changes: {
       title: "प्रोफ़ाइल बदलाव",
       titleWithName: "प्रोफ़ाइल बदलाव: {name}",
-      intro: "OpenGMB के बाहर किए गए बदलाव, जो रात 03:30 UTC के स्नैपशॉट में मिले, या Google ने सुझाए।",
+      intro: "StandardTouchGMB के बाहर किए गए बदलाव, जो रात 03:30 UTC के स्नैपशॉट में मिले, या Google ने सुझाए।",
       filterAria: "स्थिति के अनुसार छाँटें",
       pill: {
         open: "खुले ({count})",
@@ -720,7 +720,7 @@ export default namespace({
         manual: "मैन्युअल स्नैपशॉट",
       },
       googleHeadline: "\"पहले\" आपकी प्रोफ़ाइल है, \"बाद में\" वह है जो Google दिखाता है।",
-      outsideHeadline: "किसी ने OpenGMB के बाहर प्रोफ़ाइल बदली।",
+      outsideHeadline: "किसी ने StandardTouchGMB के बाहर प्रोफ़ाइल बदली।",
       revertProposed: "वापसी का प्रस्ताव बना। मंज़ूरी कतार में इसे मंज़ूर करना, फिर लागू करना होगा।",
       accept: "स्वीकार करें",
       revert: "वापस करें",
@@ -761,7 +761,7 @@ export default namespace({
     susp: {
       title: "निलंबन मामले",
       titleWithName: "निलंबन मामले: {name}",
-      intro: "OpenGMB सबूत और तारीखों का रिकॉर्ड रखता है। अपील खुद Google पर होती है, और हर निलंबन पर एक ही अपील मिलती है।",
+      intro: "StandardTouchGMB सबूत और तारीखों का रिकॉर्ड रखता है। अपील खुद Google पर होती है, और हर निलंबन पर एक ही अपील मिलती है।",
       form: "Google का बहाली फ़ॉर्म",
       finishedAria: "बंद मामला, {status}",
       openAria: "खुला मामला",
@@ -1140,7 +1140,7 @@ export default namespace({
     health: {
       scoreAria: "Puntuación de salud",
       checked: "Revisado {when}",
-      intro: "Cada revisión lee de Google el perfil, las fotos, las publicaciones, la verificación, los enlaces y los atributos, y las reseñas de la copia sincronizada de OpenGMB.",
+      intro: "Cada revisión lee de Google el perfil, las fotos, las publicaciones, la verificación, los enlaces y los atributos, y las reseñas de la copia sincronizada de StandardTouchGMB.",
       unknownLeftOut: "Las comprobaciones desconocidas no cuentan en la puntuación.",
       checking: "Revisando…",
       reading: "Leyendo {name} desde Google.",
@@ -1185,7 +1185,7 @@ export default namespace({
     changes: {
       title: "Cambios del perfil",
       titleWithName: "Cambios del perfil: {name}",
-      intro: "Cambios hechos fuera de OpenGMB, detectados por la captura nocturna de las 03:30 UTC, o sugeridos por Google.",
+      intro: "Cambios hechos fuera de StandardTouchGMB, detectados por la captura nocturna de las 03:30 UTC, o sugeridos por Google.",
       filterAria: "Filtrar por estado",
       pill: {
         open: "Abiertos ({count})",
@@ -1242,7 +1242,7 @@ export default namespace({
         manual: "captura manual",
       },
       googleHeadline: "\"Antes\" es tu perfil, \"Después\" es lo que muestra Google.",
-      outsideHeadline: "Alguien cambió el perfil fuera de OpenGMB.",
+      outsideHeadline: "Alguien cambió el perfil fuera de StandardTouchGMB.",
       revertProposed: "Reversión propuesta. Necesita aprobación y luego Aplicar, en la cola de aprobaciones.",
       accept: "Aceptar",
       revert: "Revertir",
@@ -1283,7 +1283,7 @@ export default namespace({
     susp: {
       title: "Casos de suspensión",
       titleWithName: "Casos de suspensión: {name}",
-      intro: "OpenGMB guarda el registro de las pruebas y las fechas. La apelación se hace en Google, y solo tienes una apelación por suspensión.",
+      intro: "StandardTouchGMB guarda el registro de las pruebas y las fechas. La apelación se hace en Google, y solo tienes una apelación por suspensión.",
       form: "Formulario de reactivación de Google",
       finishedAria: "Caso finalizado, {status}",
       openAria: "Caso abierto",

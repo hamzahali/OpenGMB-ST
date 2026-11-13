@@ -4,7 +4,7 @@
 export const BUSINESS_SCOPE = "https://www.googleapis.com/auth/business.manage";
 
 /** core's GOOGLE_OAUTH_BRAND.appName (google-connection.test.ts checks it): the name Google's screens show. Server-only: reads the same env var. */
-export const GOOGLE_APP_NAME = process.env.GOOGLE_OAUTH_BRAND_APP_NAME?.trim() || "OpenGMB";
+export const GOOGLE_APP_NAME = process.env.GOOGLE_OAUTH_BRAND_APP_NAME?.trim() || "StandardTouchGMB";
 
 /** `?error=<code>` from app/api/google/callback/route.ts, in plain language. */
 const ERRORS: Record<string, string> = {

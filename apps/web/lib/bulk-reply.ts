@@ -170,14 +170,14 @@ export function summaryText(out: DraftOutcome[], t: Tr = enTr): string {
 /** What "Copy for my agent" puts on the clipboard: ids and rules only, never review text or names. */
 export function agentPrompt(p: { workspaceName: string; ids: string[] }): string {
   return [
-    `Draft replies to Google reviews in OpenGMB, client "${p.workspaceName}", using the OpenGMB MCP tools.`,
+    `Draft replies to Google reviews in StandardTouchGMB, client "${p.workspaceName}", using the StandardTouchGMB MCP tools.`,
     "",
     "For each review id below:",
     "1. Call reviews_get to read the review. Skip it if it already has a visible reply.",
     "2. Write a short reply: thank the reviewer, apologise where it is fair, offer to talk offline. Never mention a condition, treatment, staff member or any detail of the visit. No links, phone numbers or offers.",
     "3. Call reviewReplies_check with the reply, fix anything it flags, then call reviewReplies_createDraft.",
     "",
-    "Stop at the draft. Do not call reviewReplies_submit, reviewReplies_approve or reviewReplies_publish: a person checks and approves every draft in OpenGMB.",
+    "Stop at the draft. Do not call reviewReplies_submit, reviewReplies_approve or reviewReplies_publish: a person checks and approves every draft in StandardTouchGMB.",
     "",
     `Review ids (${p.ids.length}):`,
     ...p.ids.map((id) => `- ${id}`),

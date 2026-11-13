@@ -13,7 +13,7 @@ export default namespace({
       lostAskAdmin: "Ask an owner or admin to reconnect it.",
       lostBadge: "Access removed",
       revokeWarning:
-        "Disconnected in OpenGMB, but Google could not revoke the token. Remove {googleAppName} from your Google account’s <link>third-party access</link> to be sure.",
+        "Disconnected in StandardTouchGMB, but Google could not revoke the token. Remove {googleAppName} from your Google account’s <link>third-party access</link> to be sure.",
       accountsLabel: "Connected Google accounts",
       none: "No Google accounts connected yet.",
       colAccount: "Google account",
@@ -22,7 +22,7 @@ export default namespace({
       colUpdated: "Last updated",
       colScopes: "Scopes",
       colActions: "Actions",
-      disconnectNote: "Disconnect asks you to confirm. OpenGMB stops managing its profiles.",
+      disconnectNote: "Disconnect asks you to confirm. StandardTouchGMB stops managing its profiles.",
       onlyAdmins: "Only owners and admins can connect or disconnect Google.",
       mainHostOnly: "Google can only be connected on {host}. <link>Open this page there</link>.",
       notConfigured:
@@ -31,7 +31,7 @@ export default namespace({
       importLocations: "Import locations from these accounts",
       reconnectTitle: "After a reconnect",
       reconnectBody:
-        "Locations stay in OpenGMB. If one shows Not linked to Google, re-import it from Locations to re-link it.",
+        "Locations stay in StandardTouchGMB. If one shows Not linked to Google, re-import it from Locations to re-link it.",
     },
     connectButton: {
       sending: "Sending you to Google…",
@@ -43,10 +43,10 @@ export default namespace({
     sampleButton: {
       connect: "Use the sample Google account",
       working: "Connecting…",
-      note: "Mock mode: connects a built-in sample account with sample locations, so you can try OpenGMB without Google credentials. It is not available in live mode.",
+      note: "Mock mode: connects a built-in sample account with sample locations, so you can try StandardTouchGMB without Google credentials. It is not available in live mode.",
     },
     disconnectButton: {
-      confirm: "Disconnect this Google account? OpenGMB stops managing its profiles.",
+      confirm: "Disconnect this Google account? StandardTouchGMB stops managing its profiles.",
       disconnect: "Disconnect",
     },
     health: {
@@ -129,7 +129,7 @@ export default namespace({
         "Get an alert on this device when a new review arrives or something waits for your approval. You only get alerts about the same things the bell shows you. The alert names the location, never the review.",
       emailTitle: "Email preferences",
       notLive: "Not live",
-      emailBody: "Choosing what reaches your inbox is not live yet. The table shows what OpenGMB does today.",
+      emailBody: "Choosing what reaches your inbox is not live yet. The table shows what StandardTouchGMB does today.",
       emailNotSent: "Emails are not sent yet, because email is not set up on this server.",
       tableCaption: "What each notification does today",
       colNotification: "Notification",
@@ -154,16 +154,16 @@ export default namespace({
       unreadPrefix: "Unread: ",
       push: {
         unsupported:
-          "This browser cannot show alerts. On an iPhone or iPad, add OpenGMB to your Home Screen first, then open it from there.",
+          "This browser cannot show alerts. On an iPhone or iPad, add StandardTouchGMB to your Home Screen first, then open it from there.",
         blocked:
-          "Alerts are blocked for OpenGMB in this browser. Allow notifications for this site in the browser settings, then reload.",
+          "Alerts are blocked for StandardTouchGMB in this browser. Allow notifications for this site in the browser settings, then reload.",
         turnOn: "Turn on alerts on this device",
         turningOn: "Turning on…",
         isOn: "Alerts are on for this device.",
         turnOff: "Turn off alerts on this device",
         turningOff: "Turning off…",
         errUnusable: "This browser returned an unusable subscription.",
-        errSave: "OpenGMB could not save this device. Try again.",
+        errSave: "StandardTouchGMB could not save this device. Try again.",
         errOn: "Could not turn alerts on.",
         errOff: "Could not turn alerts off.",
       },
@@ -192,7 +192,7 @@ export default namespace({
       lostAskAdmin: "किसी ओनर या एडमिन से इसे दोबारा जोड़ने को कहें।",
       lostBadge: "पहुँच हटाई गई",
       revokeWarning:
-        "OpenGMB में डिस्कनेक्ट हो गया, लेकिन Google टोकन रद्द नहीं कर सका। पक्का करने के लिए {googleAppName} को अपने Google खाते की <link>तीसरे पक्ष की पहुँच</link> से हटा दें।",
+        "StandardTouchGMB में डिस्कनेक्ट हो गया, लेकिन Google टोकन रद्द नहीं कर सका। पक्का करने के लिए {googleAppName} को अपने Google खाते की <link>तीसरे पक्ष की पहुँच</link> से हटा दें।",
       accountsLabel: "जुड़े हुए Google खाते",
       none: "अभी कोई Google खाता नहीं जुड़ा है।",
       colAccount: "Google खाता",
@@ -201,7 +201,7 @@ export default namespace({
       colUpdated: "आखिरी अपडेट",
       colScopes: "अनुमतियाँ",
       colActions: "कार्रवाइयाँ",
-      disconnectNote: "डिस्कनेक्ट करने से पहले पुष्टि माँगी जाती है। OpenGMB इसके प्रोफ़ाइल सँभालना बंद कर देता है।",
+      disconnectNote: "डिस्कनेक्ट करने से पहले पुष्टि माँगी जाती है। StandardTouchGMB इसके प्रोफ़ाइल सँभालना बंद कर देता है।",
       onlyAdmins: "Google को केवल मालिक और एडमिन जोड़ या हटा सकते हैं।",
       mainHostOnly: "Google केवल {host} पर जोड़ा जा सकता है। <link>यह पेज वहाँ खोलें</link>।",
       notConfigured:
@@ -210,7 +210,7 @@ export default namespace({
       importLocations: "इन खातों से स्थान इम्पोर्ट करें",
       reconnectTitle: "दोबारा जोड़ने के बाद",
       reconnectBody:
-        "स्थान OpenGMB में ही रहते हैं। अगर कोई स्थान Google से लिंक नहीं दिखे, तो उसे स्थान पेज से दोबारा इम्पोर्ट करके लिंक करें।",
+        "स्थान StandardTouchGMB में ही रहते हैं। अगर कोई स्थान Google से लिंक नहीं दिखे, तो उसे स्थान पेज से दोबारा इम्पोर्ट करके लिंक करें।",
     },
     connectButton: {
       sending: "आपको Google पर भेजा जा रहा है…",
@@ -222,10 +222,10 @@ export default namespace({
     sampleButton: {
       connect: "नमूना Google खाता इस्तेमाल करें",
       working: "जोड़ रहे हैं…",
-      note: "मॉक मोड: एक बिल्ट-इन नमूना खाता और नमूना स्थान जोड़ता है, ताकि आप Google क्रेडेंशियल के बिना OpenGMB आज़मा सकें। लाइव मोड में यह उपलब्ध नहीं है।",
+      note: "मॉक मोड: एक बिल्ट-इन नमूना खाता और नमूना स्थान जोड़ता है, ताकि आप Google क्रेडेंशियल के बिना StandardTouchGMB आज़मा सकें। लाइव मोड में यह उपलब्ध नहीं है।",
     },
     disconnectButton: {
-      confirm: "यह Google खाता डिस्कनेक्ट करें? OpenGMB इसके प्रोफ़ाइल सँभालना बंद कर देगा।",
+      confirm: "यह Google खाता डिस्कनेक्ट करें? StandardTouchGMB इसके प्रोफ़ाइल सँभालना बंद कर देगा।",
       disconnect: "डिस्कनेक्ट करें",
     },
     health: {
@@ -308,7 +308,7 @@ export default namespace({
         "नई समीक्षा आने या किसी चीज़ को आपकी मंज़ूरी का इंतज़ार होने पर इस डिवाइस पर अलर्ट पाएँ। आपको वही अलर्ट मिलते हैं जो घंटी दिखाती है। अलर्ट में स्थान का नाम होता है, समीक्षा कभी नहीं।",
       emailTitle: "ईमेल पसंद",
       notLive: "अभी चालू नहीं",
-      emailBody: "इनबॉक्स में क्या आए, यह चुनना अभी चालू नहीं है। तालिका दिखाती है कि OpenGMB आज क्या करता है।",
+      emailBody: "इनबॉक्स में क्या आए, यह चुनना अभी चालू नहीं है। तालिका दिखाती है कि StandardTouchGMB आज क्या करता है।",
       emailNotSent: "ईमेल अभी नहीं भेजे जाते, क्योंकि इस सर्वर पर ईमेल सेट नहीं है।",
       tableCaption: "आज हर सूचना क्या करती है",
       colNotification: "सूचना",
@@ -333,16 +333,16 @@ export default namespace({
       unreadPrefix: "अनपढ़ी: ",
       push: {
         unsupported:
-          "यह ब्राउज़र अलर्ट नहीं दिखा सकता। iPhone या iPad पर पहले OpenGMB को होम स्क्रीन में जोड़ें, फिर वहीं से खोलें।",
+          "यह ब्राउज़र अलर्ट नहीं दिखा सकता। iPhone या iPad पर पहले StandardTouchGMB को होम स्क्रीन में जोड़ें, फिर वहीं से खोलें।",
         blocked:
-          "इस ब्राउज़र में OpenGMB के अलर्ट बंद हैं। ब्राउज़र सेटिंग्स में इस साइट की सूचनाएँ चालू करें, फिर रीलोड करें।",
+          "इस ब्राउज़र में StandardTouchGMB के अलर्ट बंद हैं। ब्राउज़र सेटिंग्स में इस साइट की सूचनाएँ चालू करें, फिर रीलोड करें।",
         turnOn: "इस डिवाइस पर अलर्ट चालू करें",
         turningOn: "चालू हो रहा है…",
         isOn: "इस डिवाइस पर अलर्ट चालू हैं।",
         turnOff: "इस डिवाइस पर अलर्ट बंद करें",
         turningOff: "बंद हो रहा है…",
         errUnusable: "इस ब्राउज़र ने अनुपयोगी सब्सक्रिप्शन लौटाया।",
-        errSave: "OpenGMB इस डिवाइस को सहेज नहीं सका। फिर कोशिश करें।",
+        errSave: "StandardTouchGMB इस डिवाइस को सहेज नहीं सका। फिर कोशिश करें।",
         errOn: "अलर्ट चालू नहीं हो सके।",
         errOff: "अलर्ट बंद नहीं हो सके।",
       },
@@ -371,7 +371,7 @@ export default namespace({
       lostAskAdmin: "Pide a un propietario o administrador que la vuelva a conectar.",
       lostBadge: "Acceso quitado",
       revokeWarning:
-        "Desconectada en OpenGMB, pero Google no pudo revocar el token. Para asegurarte, quita {googleAppName} del <link>acceso de terceros</link> de tu cuenta de Google.",
+        "Desconectada en StandardTouchGMB, pero Google no pudo revocar el token. Para asegurarte, quita {googleAppName} del <link>acceso de terceros</link> de tu cuenta de Google.",
       accountsLabel: "Cuentas de Google conectadas",
       none: "Aún no hay cuentas de Google conectadas.",
       colAccount: "Cuenta de Google",
@@ -380,7 +380,7 @@ export default namespace({
       colUpdated: "Última actualización",
       colScopes: "Permisos",
       colActions: "Acciones",
-      disconnectNote: "Desconectar pide confirmación. OpenGMB deja de gestionar sus perfiles.",
+      disconnectNote: "Desconectar pide confirmación. StandardTouchGMB deja de gestionar sus perfiles.",
       onlyAdmins: "Solo los propietarios y administradores pueden conectar o desconectar Google.",
       mainHostOnly: "Google solo se puede conectar en {host}. <link>Abre esta página allí</link>.",
       notConfigured:
@@ -389,7 +389,7 @@ export default namespace({
       importLocations: "Importar ubicaciones de estas cuentas",
       reconnectTitle: "Tras reconectar",
       reconnectBody:
-        "Las ubicaciones se quedan en OpenGMB. Si alguna aparece sin vincular a Google, vuelve a importarla desde Ubicaciones para vincularla.",
+        "Las ubicaciones se quedan en StandardTouchGMB. Si alguna aparece sin vincular a Google, vuelve a importarla desde Ubicaciones para vincularla.",
     },
     connectButton: {
       sending: "Te llevamos a Google…",
@@ -401,10 +401,10 @@ export default namespace({
     sampleButton: {
       connect: "Usar la cuenta de Google de muestra",
       working: "Conectando…",
-      note: "Modo simulado: conecta una cuenta de muestra con ubicaciones de muestra, para probar OpenGMB sin credenciales de Google. No está disponible en modo real.",
+      note: "Modo simulado: conecta una cuenta de muestra con ubicaciones de muestra, para probar StandardTouchGMB sin credenciales de Google. No está disponible en modo real.",
     },
     disconnectButton: {
-      confirm: "¿Desconectar esta cuenta de Google? OpenGMB dejará de gestionar sus perfiles.",
+      confirm: "¿Desconectar esta cuenta de Google? StandardTouchGMB dejará de gestionar sus perfiles.",
       disconnect: "Desconectar",
     },
     health: {
@@ -487,7 +487,7 @@ export default namespace({
         "Recibe una alerta en este dispositivo cuando llegue una reseña nueva o algo espere tu aprobación. Solo recibes alertas de lo mismo que te muestra la campana. La alerta nombra la ubicación, nunca la reseña.",
       emailTitle: "Preferencias de correo",
       notLive: "Aún no activo",
-      emailBody: "Elegir qué llega a tu bandeja de entrada aún no está activo. La tabla muestra lo que hace OpenGMB hoy.",
+      emailBody: "Elegir qué llega a tu bandeja de entrada aún no está activo. La tabla muestra lo que hace StandardTouchGMB hoy.",
       emailNotSent: "Todavía no se envían correos, porque el correo no está configurado en este servidor.",
       tableCaption: "Qué hace hoy cada notificación",
       colNotification: "Notificación",
@@ -512,16 +512,16 @@ export default namespace({
       unreadPrefix: "Sin leer: ",
       push: {
         unsupported:
-          "Este navegador no puede mostrar alertas. En un iPhone o iPad, añade primero OpenGMB a la pantalla de inicio y ábrelo desde allí.",
+          "Este navegador no puede mostrar alertas. En un iPhone o iPad, añade primero StandardTouchGMB a la pantalla de inicio y ábrelo desde allí.",
         blocked:
-          "Las alertas de OpenGMB están bloqueadas en este navegador. Permite las notificaciones de este sitio en los ajustes del navegador y recarga.",
+          "Las alertas de StandardTouchGMB están bloqueadas en este navegador. Permite las notificaciones de este sitio en los ajustes del navegador y recarga.",
         turnOn: "Activar alertas en este dispositivo",
         turningOn: "Activando…",
         isOn: "Las alertas están activadas en este dispositivo.",
         turnOff: "Desactivar alertas en este dispositivo",
         turningOff: "Desactivando…",
         errUnusable: "Este navegador devolvió una suscripción inutilizable.",
-        errSave: "OpenGMB no pudo guardar este dispositivo. Inténtalo de nuevo.",
+        errSave: "StandardTouchGMB no pudo guardar este dispositivo. Inténtalo de nuevo.",
         errOn: "No se pudieron activar las alertas.",
         errOff: "No se pudieron desactivar las alertas.",
       },

@@ -1,5 +1,5 @@
 // StandardTouch's own brand for the default header and sign-in page. This file is ours: it is not
-// in upstream OpenGMB, so updates merged from upstream leave it alone.
+// in upstream StandardTouchGMB, so updates merged from upstream leave it alone.
 export const DEFAULT_BRAND = {
   name: "StandardTouch",
   subline: "",

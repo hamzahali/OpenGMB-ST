@@ -72,7 +72,7 @@ export function shellBrand(b: Branding | null): ShellBrand {
   if (!branded || !b) {
     return { name: DEFAULT_BRAND.name, subline: DEFAULT_BRAND.subline, mark: "S", logoUrl: DEFAULT_BRAND.logoUrl };
   }
-  const name = b.agencyName.trim() || "OpenGMB";
+  const name = b.agencyName.trim() || "StandardTouchGMB";
   return {
     name,
     subline: "Powered by StandardTouch",

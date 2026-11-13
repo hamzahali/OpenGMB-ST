@@ -15,7 +15,7 @@ export const BACKUP_CODES_FILE = "opengmb-backup-codes.txt";
 
 /** The body of the backup codes text file, also what "Copy codes" copies. */
 export function backupCodesText(codes: string[]): string {
-  return ["OpenGMB backup codes. Each code works once.", "", ...codes, ""].join("\n");
+  return ["StandardTouchGMB backup codes. Each code works once.", "", ...codes, ""].join("\n");
 }
 
 /** The roles an invitation can carry (DB check invitations_role_invitable). */

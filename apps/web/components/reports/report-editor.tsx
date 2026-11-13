@@ -220,7 +220,7 @@ export function ReportEditor(p: {
         </div>
         <div className="overflow-hidden rounded-md border border-border bg-card text-sm">
           <div className="px-4 py-3 font-display font-bold" style={bannerStyle(HEX.test(s.colour) ? s.colour : p.defaultColour)}>
-            {s.agencyName.trim() || "OpenGMB"}
+            {s.agencyName.trim() || "StandardTouchGMB"}
           </div>
           <div className="flex flex-col gap-3 p-4">
             <div>

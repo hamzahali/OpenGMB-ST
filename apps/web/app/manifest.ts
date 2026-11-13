@@ -4,8 +4,8 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     id: "/",
-    name: "OpenGMB",
-    short_name: "OpenGMB",
+    name: "StandardTouchGMB",
+    short_name: "StandardTouchGMB",
     description: "Manage Google Business Profiles: reviews, posts and approvals.",
     start_url: "/",
     scope: "/",

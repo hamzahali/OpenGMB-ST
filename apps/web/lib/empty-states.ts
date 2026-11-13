@@ -60,7 +60,7 @@ export const EMPTY_STATES = {
     route: "/locations/alerts",
     file: "app/(app)/locations/alerts/page.tsx",
     title: "No profile changes found",
-    next: "OpenGMB compares each profile with Google every night at 03:30 UTC. Until something changes, check how complete your profiles are.",
+    next: "StandardTouchGMB compares each profile with Google every night at 03:30 UTC. Until something changes, check how complete your profiles are.",
     cta: { label: "Open location health", href: "/locations/health" },
   },
   changes: {
