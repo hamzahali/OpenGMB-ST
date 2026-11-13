@@ -85,10 +85,10 @@ describe("brandTokens sweep", () => {
 });
 
 describe("shellBrand", () => {
-  it("shows OpenGMB by StandardTouch when the agency set no logo or colour", () => {
+  it("shows the StandardTouch brand and logo when the agency set no logo or colour", () => {
     expect(
       shellBrand({ agencyName: "Synectus", logoUrl: null, primaryColor: null, accentColor: null }),
-    ).toEqual({ name: "OpenGMB", subline: "by StandardTouch", mark: "O", logoUrl: null });
+    ).toEqual({ name: "StandardTouch", subline: "", mark: "S", logoUrl: "https://standardtouch.com/wp-content/uploads/2026/03/ST-Transparent-Logo-Final-2-3.webp" });
   });
 
   it("shows the agency once it set a colour", () => {
@@ -97,13 +97,13 @@ describe("shellBrand", () => {
     ).toEqual({ name: "Example Agency", subline: "Powered by StandardTouch", mark: "E", logoUrl: null });
   });
 
-  it("keeps OpenGMB when the agency only renamed itself", () => {
+  it("keeps the StandardTouch brand when the agency only renamed itself", () => {
     expect(
       shellBrand({ agencyName: "Renamed Co", logoUrl: null, primaryColor: null, accentColor: null }).name,
-    ).toBe("OpenGMB");
+    ).toBe("StandardTouch");
   });
 
   it("handles missing branding", () => {
-    expect(shellBrand(null).name).toBe("OpenGMB");
+    expect(shellBrand(null).name).toBe("StandardTouch");
   });
 });

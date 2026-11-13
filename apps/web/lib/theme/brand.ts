@@ -2,6 +2,7 @@
 import type { Branding } from "@opengmb/core";
 import { buttonPair, contrast, ensureContrast, isHex, mix, WHITE } from "./color";
 import { DARK, LIGHT, themeCss, type Tokens } from "./tokens";
+import { DEFAULT_BRAND } from "../standardtouch-brand";
 
 type Colours = Pick<Branding, "primaryColor" | "accentColor">;
 type Overrides = Partial<Tokens>;
@@ -68,11 +69,14 @@ export type ShellBrand = { name: string; subline: string; mark: string; logoUrl:
  */
 export function shellBrand(b: Branding | null): ShellBrand {
   const branded = Boolean(b && (b.logoUrl || isHex(b.primaryColor) || isHex(b.accentColor)));
-  const name = branded && b ? b.agencyName.trim() || "OpenGMB" : "OpenGMB";
+  if (!branded || !b) {
+    return { name: DEFAULT_BRAND.name, subline: DEFAULT_BRAND.subline, mark: "S", logoUrl: DEFAULT_BRAND.logoUrl };
+  }
+  const name = b.agencyName.trim() || "OpenGMB";
   return {
     name,
-    subline: branded ? "Powered by StandardTouch" : "by StandardTouch",
+    subline: "Powered by StandardTouch",
     mark: name.trim().charAt(0).toUpperCase() || "O",
-    logoUrl: branded && b?.logoUrl ? b.logoUrl : null,
+    logoUrl: b.logoUrl ?? null,
   };
 }

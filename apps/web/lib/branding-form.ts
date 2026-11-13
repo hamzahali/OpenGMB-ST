@@ -57,5 +57,5 @@ export function previewBrand(v: BrandingInput): { name: string; mark: string; lo
     primaryColor: v.primaryColor.trim() || null,
     accentColor: v.accentColor.trim() || null,
   });
-  return { name: s.name, mark: s.mark, logoUrl: s.logoUrl, branded: s.subline !== "by StandardTouch" };
+  return { name: s.name, mark: s.mark, logoUrl: s.logoUrl, branded: s.subline !== "" };
 }
